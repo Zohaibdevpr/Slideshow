@@ -12,7 +12,7 @@ html, body{
     backdrop-filter: blur(40px) saturate(5);
 }
 h1{
-    text-align: center;
+    text-align: center; 
     color: white;
     font-size: 40px;
     font-weight: bold;
