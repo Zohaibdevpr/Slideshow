@@ -11,5 +11,16 @@
     <div class="main">
 
     </div>
+    <audio autoplay id="song" 
+    src="\Slideshow\Audio\metamorphosis.mp3">
+     
+    </audio>
+    <!-- internal js for song  -->
+    <script>
+      window.addEventListener("click",play);
+      function play(){
+      document.getElementById("song").play();
+      }
+    </script>
 </body>
 </html>
